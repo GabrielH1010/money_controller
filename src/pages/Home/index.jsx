@@ -11,6 +11,7 @@ function Home() {
 
   return (
     <>
+    
       <Header />
       <Container>
         <Area>
