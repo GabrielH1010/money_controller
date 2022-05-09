@@ -30,13 +30,7 @@ export const AuthProvider = ({ children }) => {
         const token = Math.random().toString(36).substring(2);
         localStorage.setItem("user_token", JSON.stringify({ email, token }));
         setUser({ email, password });
-        toast.success("Login feito com sucesso", {
-          position: toast.POSITION.TOP_RIGHT,
-          theme: "colored",
-        });
-        return {
-          status: 'success',
-        };
+        return ;
       
       } else {
         toast.error("E-mail ou senha incorretos", {

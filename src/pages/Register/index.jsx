@@ -19,6 +19,7 @@ const Login = () => {
     const [email, setEmail] = useState("");
     const [senha, setSenha] = useState("");
     const [emailConfirme, setEmailConfirme] = useState("");
+    const [error, setError] = useState("");
 
     const { signup } = useAuth();
     const navigate = useNavigate();
@@ -35,12 +36,17 @@ const Login = () => {
 
         const response = signup(email, senha);
 
-        console.log(response)
+        if (response) {
+            setError(response);
+            return;
+        }
 
         toast.success("Usuário cadatrado com sucesso", {
-            position: toast.POSITION.TOP_RIGHT,
-            theme: "colored",
+        position: toast.POSITION.TOP_RIGHT,
+        theme: "colored",
         })
+
+        console.log(error)
         navigate("/");
     };
 

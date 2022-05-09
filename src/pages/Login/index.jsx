@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-import { Input, Button } from "components"
+import { Input, Button } from "components";
+import { toast } from "react-toastify";
 
 import {
   Container,
@@ -27,48 +28,50 @@ const Login = () => {
     e.preventDefault();
     const res = signin(email, password);
 
-    if (res.status === "success") {
-      navigate('/home');
-    };
-  }
-
-  console.log(error)
-
+    if (res) {
+      setError(res);
+      return;
+    }
+    toast.success("Usuário cadatrado com sucesso", {
+      position: toast.POSITION.TOP_RIGHT,
+      theme: "colored",
+    });
+    navigate("/home");
+  };
   return (
     <Container>
       <LeftBox />
       <RightBox>
-      <Form>
-            <Title>Money controller</Title>
-            <Logo>
-              <img src={logobank} alt="" />
-            </Logo>
-            <Div>
-              <Input
-                width="100%"
-                label="E-mail"
-                placeholder="Type your e-mail"
-                value={email}
-                onChange={(e) => setEmail(e.target.value)}
-              />
+        <Form>
+          <Title>Money controller</Title>
+          <Logo>
+            <img src={logobank} alt="" />
+          </Logo>
+          <Div>
+            <Input
+              width="100%"
+              label="E-mail"
+              placeholder="Type your e-mail"
+              value={email}
+              onChange={(e) => setEmail(e.target.value)}
+            />
 
-              <Input
-                width="100%"
-                label="Password"
-                placeholder="Type your password"
-                value={password}
-                onChange={(e) => setPassword(e.target.value)}
-                password
-                type="password"
-              />
-            </Div>
+            <Input
+              width="100%"
+              label="Password"
+              placeholder="Type your password"
+              value={password}
+              onChange={(e) => setPassword(e.target.value)}
+              password
+              type="password"
+            />
+          </Div>
 
-            <Button onClick={handleLogin}>Enter</Button>
-            <ForgotText onClick={() => navigate('/signup')}>
-              Create a new account
-            </ForgotText>
-          </Form>
-        
+          <Button onClick={handleLogin}>Enter</Button>
+          <ForgotText onClick={() => navigate("/signup")}>
+            Create a new account
+          </ForgotText>
+        </Form>
       </RightBox>
     </Container>
   );
