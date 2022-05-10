@@ -116,6 +116,6 @@ export const ForgotText = styled.a`
   }
 
   @media (max-width: 1000px) {
-    margin-top: 8%;
+    margin-top: 5;
   }
 `;

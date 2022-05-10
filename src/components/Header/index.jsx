@@ -19,7 +19,7 @@ function Header() {
   return (
     <Container>
       <ContentArea>
-        <Logo>
+        <Logo onClick={() => navigate("/home")}>
           <Image>
             <img src={logoBank} alt="" />
           </Image>

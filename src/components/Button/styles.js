@@ -6,7 +6,7 @@ export const StyledButton = styled.button`
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  background-color: ${(props) => props.background || primary}};
+  background-color: ${(props) => props.background || primary};
   border: none;
   color: ${white};
   outline: none;

@@ -6,7 +6,6 @@ export const Container = styled.div`
   flex-direction: column;
   align-items: center;
   border-radius: 5px;
-  padding: 5px 15px;
   width: 100%;
   background: white ;
   cursor: pointer;
@@ -19,10 +18,6 @@ export const Container = styled.div`
 
   @media (max-width: 1000px) {
     width: 100%;
-
-    svg {
-      display: none;
-    }
   }
 `;
 
@@ -36,6 +31,10 @@ export const Header = styled.header`
   svg {
     width: 25px;
     height: 25px;
+
+    @media (max-width: 1000px) {
+    display: none;
+    }
   }
 `;
 
@@ -59,7 +58,7 @@ export const Total = styled.span`
   margin: -10px 0 5px 0;
 
   @media (max-width: 1100px) {
-    font-size: 24px;
+    font-size: 22px;
   }
 
 `;

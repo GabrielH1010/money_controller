@@ -3,20 +3,18 @@ import {primary} from 'styles/colorProvider';
 
 export const Container = styled.div`
   max-width: 1200px;
-  margin: 20px auto;
+  margin: 15px auto;
   width: 100%;
   background-color: white;
   border-radius: 5px;
   display: flex;
   justify-content: space-around;
-  padding: 15px 0px;
-  gap: 10px;
+  padding: 5px 0px;
 
   @media (max-width: 1200px) {
     justify-content: center;
     flex-direction: column;
     align-items: center;
-;
   }
 `;
 
@@ -28,7 +26,6 @@ export const Label = styled.p`
 
 export const InputRadio = styled.input`
   outline: none;
-  background: ;
   border-radius: 5px;
   padding: 5px 10px;
   font-size: 15px;
