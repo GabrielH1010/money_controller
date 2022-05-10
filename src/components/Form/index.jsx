@@ -26,13 +26,13 @@ function Form({ handleAdd, transactionsList, setTransactionsList }) {
     <>
       <Container>
         <Input
-          label="Descrição"
+          label="Description"
           placeholder="..."
           value={description}
           onChange={(e) => setDescription(e.target.value)}
         />
         <Input
-          label="Valor"
+          label="Value"
           placeholder="R$0,00"
           type="number"
           value={number}
