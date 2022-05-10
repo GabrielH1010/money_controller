@@ -32,7 +32,7 @@ const Login = () => {
       setError(res);
       return;
     }
-    toast.success("Usuário cadatrado com sucesso", {
+    toast.success("Login efetuado com sucesso", {
       position: toast.POSITION.TOP_RIGHT,
       theme: "colored",
     });

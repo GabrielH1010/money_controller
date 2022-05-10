@@ -71,11 +71,6 @@ export const Title = styled.h3`
   text-align: left;
   text-transform: uppercase;
   margin-bottom: 12px;
-  cursor: pointer;
-
-  :hover{
-      color: ${white};
-  }
 
   @media (max-width: 1000px) {
     margin-top: 10px;
@@ -112,9 +107,6 @@ export const LinkProfile = styled.div`
         color: ${white};
     }
 
-    /* @media (max-width: 600px) {
-    margin: 5% 3% 3% 3%;
-    } */
   }
 
   .copyright{

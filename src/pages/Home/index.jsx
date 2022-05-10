@@ -23,14 +23,14 @@ function Home() {
             </Item>
             <Item>
               <h1>MONTHLY EXPENSE</h1>
-              <p>Create your project for your company expenses</p>
+              <p>Create a project for monthly investment expenses</p>
               <img src={monthlyExpense} alt="" />
 
               <Button onClick={() => navigate("/home/project")}>Create</Button>
             </Item>
             <Item>
               <h1>INDIVIDUAL EXPENSE</h1>
-              <p>Create your project for your company expenses</p>
+              <p>Create a project to manage your salary and expenses</p>
               <img src={individualExpense} alt="" />
               <Button onClick={() => navigate("/home/project")}>Create</Button>
             </Item>
