@@ -1,70 +1,20 @@
-# Getting Started with Create React App
+<h1 align=center>💸 MONEY CONTROLLER 💸</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align=center>O Money Controller (Controlador de dinheiro) foi feito totalmente pensando para o controle financeiro de suas finanças pessoais ou empresáriais...</p>
 
-## Available Scripts
+<h2 align=center>Ferramentas 🛠</h2>
+<p align=center>Foi utlizado HTML, CSS, JavaScript e React como Framework para esse projeto e como armazenamento foi feito através do LocalStrorage onde ela consiste em salvar, adicionar, recuperar ou excluir dados localmente em seu navegador</p>
 
-In the project directory, you can run:
+<h2 align=center>Projeto 🏛</h2>
+<p align=center>Essa parte da plataforma é onde você vai poder controlar seus gastos e seus ganhos diários ou mensal e ele irá retornar o valor total de suas despesas.</p>
 
-### `yarn start`
+![image](https://user-images.githubusercontent.com/92988574/167715344-886f7ca5-4780-429e-8cd0-6ff9a6751bc5.png)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<h2 align=center>Responsividade 📱</h2>
+<p align=center>O projeto foi pensando para que todos conseguissem acessar idependente do aparelho, seja ele mobile ou desktop, sem perder a qualidade do design</p>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+![Money-Controller-Google-Chrome-2022-05-10-17-39-51](https://user-images.githubusercontent.com/92988574/167718255-b94378ef-af44-4fa2-84f3-939e0218b015.gif)
 
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<h2 align=center>Prototipação 🖋</h2>
+<p align=center>A parte visual foi feito um design totalmente criada por mim, usando a ferramenta chamada FIGMA, nela foi criada todo o desing e prototipação. <a href="https://www.figma.com/file/JlRx9I2IvZQyyjTvIz0y8x/Money-Controller?node-id=0%3A1" target="_blank">(Acessar link)</a>
+</p>
