@@ -53,3 +53,21 @@ export const Image = styled.image`
     display: none;
   }
 `;
+
+export const LogoutButton = styled.button`
+  display: flex;
+  color: white;
+  background: ${primary};
+  font-size: 12px;
+  border-radius: 10px;
+  width: 110px;
+  height: 30px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  cursor: pointer;
+
+  :hover {
+    opacity: 0.7;
+  }
+`;

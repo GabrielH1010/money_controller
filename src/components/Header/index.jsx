@@ -1,8 +1,21 @@
 import React from "react";
 import logoBank from "../../assets/logo.svg";
-import { Container, ContentArea, Logo, Image, Title } from "./styles";
+import { BiLogOut } from "react-icons/bi";
+import useAuth from "../../hooks/useAuth";
+import { useNavigate } from "react-router-dom";
+import {
+  Container,
+  ContentArea,
+  Logo,
+  Image,
+  Title,
+  LogoutButton,
+} from "./styles";
 
 function Header() {
+  const { logout } = useAuth();
+  const navigate = useNavigate();
+
   return (
     <Container>
       <ContentArea>
@@ -12,7 +25,10 @@ function Header() {
           </Image>
           <Title>Money Controller</Title>
         </Logo>
-        <button>sair</button>
+        <LogoutButton onClick={() => [logout(), navigate("/")]}>
+          <BiLogOut style={{ marginRight: 8 }} />
+          Logout
+        </LogoutButton>
       </ContentArea>
     </Container>
   );

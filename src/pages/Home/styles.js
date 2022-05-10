@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { primary, white, secondary } from 'styles/colorProvider';
+import { primary, secondary } from 'styles/colorProvider';
 
 export const Container = styled.div`
   background-color: ${primary};
@@ -38,24 +38,6 @@ export const Div = styled.div`
   @media (max-width: 1000px) {
     flex-direction: column;
     margin: 50px 0;
-  }
-`;
-
-export const Title = styled.h3`
-  font-size: 30px;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 700;
-  color: ${white};
-  text-align: center;
-  text-transform: uppercase;
-  margin-bottom: 40px;
-  cursor: pointer;
-  :hover{
-    opacity: 0.9;
-  }
-
-  @media (max-width: 1000px) {
-    margin-bottom: -30px;
   }
 `;
 

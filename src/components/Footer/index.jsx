@@ -43,13 +43,19 @@ function Footer() {
               <a href="https://github.com/GabrielH1010" target="blank">
                 <AiOutlineGithub size={22} />
               </a>
-              <a href="https://github.com/GabrielH1010" target="blank">
+              <a
+                href="https://www.linkedin.com/in/gabriel-henrique-de-oliveira-01436b1b4/"
+                target="blank"
+              >
                 <AiFillLinkedin size={22} />
               </a>
-              <a href="https://github.com/GabrielH1010" target="blank">
+              <a href="mailto:gabrielhdeoliveira17@gmail.com? " target="blank">
                 <AiOutlineMail size={22} />
               </a>
-              <a href="https://github.com/GabrielH1010" target="blank">
+              <a
+                href="http://api.whatsapp.com/send?1=pt_BR&phone=5534998985764"
+                target="blank"
+              >
                 <AiOutlineWhatsApp size={22} />
               </a>
             </LinkProfile>
@@ -59,13 +65,19 @@ function Footer() {
               <a href="https://github.com/GabrielH1010" target="blank">
                 <AiOutlineGithub size={35} />
               </a>
-              <a href="https://github.com/GabrielH1010" target="blank">
+              <a
+                href="https://www.linkedin.com/in/gabriel-henrique-de-oliveira-01436b1b4/"
+                target="blank"
+              >
                 <AiFillLinkedin size={35} />
               </a>
-              <a href="https://github.com/GabrielH1010" target="blank">
+              <a href="mailto:gabrielhdeoliveira17@gmail.com? " target="blank">
                 <AiOutlineMail size={35} />
               </a>
-              <a href="https://github.com/GabrielH1010" target="blank">
+              <a
+                href="http://api.whatsapp.com/send?1=pt_BR&phone=5534998985764"
+                target="blank"
+              >
                 <AiOutlineWhatsApp size={35} />
               </a>
             </LinkProfile>

@@ -67,7 +67,9 @@ const Login = () => {
             />
           </Div>
 
-          <Button onClick={handleLogin}>Enter</Button>
+          <Button onClick={handleLogin} disabled={!email || !password}>
+            Enter
+          </Button>
           <ForgotText onClick={() => navigate("/signup")}>
             Create a new account
           </ForgotText>
