@@ -58,7 +58,7 @@ export const Total = styled.span`
   margin: -10px 0 5px 0;
 
   @media (max-width: 1100px) {
-    font-size: 22px;
+    font-size: 18px;
   }
 
 `;

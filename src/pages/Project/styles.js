@@ -11,7 +11,10 @@ export const Container = styled.div`
 
   
   @media (max-width: 1200px) {
-    height: 100vh;
+    height: 70vh;
+  }
+  @media (max-width: 400px) {
+    height: 85vh;
   }
 `;
 
@@ -38,7 +41,7 @@ export const Topic = styled.div`
   align-items: center;
 
   @media (max-width: 1000px) {
-    width: 95%;
+    width: 100%;
   }
 `;
 
@@ -46,16 +49,10 @@ export const Div = styled.div`
   display: flex;
   margin: 5% 0;
   background-color: ${(props) => props.background || primary};
-  width: 90%;
+  width: 95%;
   justify-content: center;
   flex-direction: column;
   align-items: center;
-
-  @media (max-width: 1100px) {
-    width: 100%;
-    flex-direction: column;
-    justify-content: center;
-  }
 `;
 
 export const Title = styled.h3`

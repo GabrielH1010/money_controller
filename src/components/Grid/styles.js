@@ -6,9 +6,8 @@ export const Table = styled.div`
   width: 100%;
   background-color: white;
   border-radius: 5px;
-  margin: 0px auto;
+  margin-bottom: 10px;
   justify-content: column;
-  
 `;
 
 export const Header = styled.div`
@@ -21,8 +20,8 @@ export const Header = styled.div`
   border-bottom: 1.5px solid ${primary};
 
   h3{
-    margin: 5px 0;
-    font-size: 20px;
+    margin: 3px 0;
+    font-size: 16px;
     text-align: center;
     font-family: 'Roboto', sans-serif;
     text-transform: uppercase;
@@ -37,4 +36,8 @@ export const Scroll = styled.div`
   margin:5px 0 ;
   overflow: hidden;
   overflow-y: auto;
+
+  @media (max-width: 1200px) {
+    height: 110px;
+  }
 `;
