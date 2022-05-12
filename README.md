@@ -18,3 +18,6 @@
 <h2 align=center>Prototipação 🖋</h2>
 <p align=center>A parte visual foi feito um design totalmente criada por mim, usando a ferramenta chamada FIGMA, nela foi criada todo o desing e prototipação. <a href="https://www.figma.com/file/JlRx9I2IvZQyyjTvIz0y8x/Money-Controller?node-id=0%3A1" target="_blank">(Acessar link)</a>
 </p>
+
+<h2 align=center>Tradução 🌎</h2>
+<p align=center>O projeto foi todo feito em inglês, porém, não se preocupe, foi feito para ser traduzido através do Browser (Google, FireFox ou Opera). O motivo dessa iniciativa foi para poder aprender mais sobre a língua e também para que possa ter um alcance maior.</p>
