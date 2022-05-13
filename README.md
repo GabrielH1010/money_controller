@@ -31,3 +31,6 @@
 
 <h2 align=center>Tradução 🌎</h2>
 <p align=center>O projeto foi todo feito em inglês, porém, não se preocupe, foi feito para ser traduzido através do Browser (Google, FireFox ou Opera). O motivo dessa iniciativa foi para poder aprender mais sobre a língua e também para que possa ter um alcance maior.</p>
+
+<h2 align=center>Inicializar o projeto 🚀</h2>
+<p align=center>Caso queira rodar esse projeto na sua máquina para dar uma olhada no código, basta clonar esse repositário e instalar as depêndencias com #yarn install ou #npm install no próprio terminal. Após instalado basta colocar #yarn start e o projeto vai ser aberto em servidor local.</p>
