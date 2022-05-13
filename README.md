@@ -4,6 +4,16 @@
 
 <h2 align=center>Ferramentas 🛠</h2>
 <p align=center>Foi utlizado HTML, CSS, JavaScript e React como Framework para esse projeto e como armazenamento foi feito através do LocalStrorage onde ela consiste em salvar, adicionar, recuperar ou excluir dados localmente em seu navegador.</p>
+<div align="center" style="display: inline_block"><br>
+  <img align="center"  height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
+  <img align="center"  height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
+  <img align="center"  height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
+  <img align="center"  height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg">
+  <img align="center"  height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" />
+  <img align="center"  height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/materialui/materialui-original.svg">
+  <img align="center"  height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg">
+
+</div>
 
 <h2 align=center>Projeto 🏛</h2>
 <p align=center>Essa parte da plataforma é onde você vai poder controlar seus gastos e seus ganhos diários ou mensal e ele irá retornar o valor total de suas despesas.</p>
