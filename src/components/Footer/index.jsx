@@ -30,9 +30,7 @@ function Footer() {
           </Div>
           <Div>
             <Title>company info </Title>
-            <Subtitle>
-              Address: Rua Jorge Martins Pinto n°437, Uberlândia/MG - Brazil
-            </Subtitle>
+            <Subtitle>Address: Uberlândia/MG - Brazil</Subtitle>
             <Subtitle>CNPJ: 91.941.196/0001-74</Subtitle>
           </Div>
           <NotMobile>
@@ -60,29 +58,29 @@ function Footer() {
               </a>
             </LinkProfile>
           </NotMobile>
-          <Mobile>
-            <LinkProfile>
-              <a href="https://github.com/GabrielH1010" target="blank">
-                <AiOutlineGithub size={35} />
-              </a>
-              <a
-                href="https://www.linkedin.com/in/gabriel-henrique-de-oliveira-01436b1b4/"
-                target="blank"
-              >
-                <AiFillLinkedin size={35} />
-              </a>
-              <a href="mailto:gabrielhdeoliveira17@gmail.com? " target="blank">
-                <AiOutlineMail size={35} />
-              </a>
-              <a
-                href="http://api.whatsapp.com/send?1=pt_BR&phone=5534998985764"
-                target="blank"
-              >
-                <AiOutlineWhatsApp size={35} />
-              </a>
-            </LinkProfile>
-          </Mobile>
         </ContentArea>
+        <Mobile>
+          <LinkProfile>
+            <a href="https://github.com/GabrielH1010" target="blank">
+              <AiOutlineGithub size={35} />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/gabriel-henrique-de-oliveira-01436b1b4/"
+              target="blank"
+            >
+              <AiFillLinkedin size={35} />
+            </a>
+            <a href="mailto:gabrielhdeoliveira17@gmail.com? " target="blank">
+              <AiOutlineMail size={35} />
+            </a>
+            <a
+              href="http://api.whatsapp.com/send?1=pt_BR&phone=5534998985764"
+              target="blank"
+            >
+              <AiOutlineWhatsApp size={35} />
+            </a>
+          </LinkProfile>
+        </Mobile>
       </Container>
     </>
   );

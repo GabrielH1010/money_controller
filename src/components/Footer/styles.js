@@ -2,15 +2,16 @@ import styled from 'styled-components';
 import { primary, midleGray, white } from 'styles/colorProvider';
 
 export const Container = styled.footer`
-  background-color: ${midleGray};
+  display: flex;
   width: 100%;
   height: 20vh;
-  display: flex;
   align-items: center;
   justify-content: center;
+  background-color: ${midleGray};
 
   @media (max-width: 1000px) {
     height: 55vh;
+    flex-direction: column;
   }
 `;
 
@@ -22,6 +23,8 @@ export const ContentArea = styled.div`
 
   @media (max-width: 1000px) {
     flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
   }
 `;
 
@@ -34,6 +37,8 @@ export const Div = styled.div`
 
   @media (max-width: 1000px) {
     margin-top: 20px;
+    align-items: left;
+    justify-content: flex-start;
   }
 `;
 
@@ -58,7 +63,7 @@ export const Mobile = styled.div`
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    margin-top: 25px;
+    margin: 20px  0 10px 0;
   }
 `;
 
