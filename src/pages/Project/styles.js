@@ -36,6 +36,10 @@ export const Div = styled.div`
   justify-content: center;
   flex-direction: column;
   align-items: center;
+
+  @media (max-width: 1000px) {
+    width: 85%;
+  }
 `;
 
 export const Title = styled.h3`
