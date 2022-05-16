@@ -10,6 +10,7 @@ export const Container = styled.div`
   justify-content: space-around;
 
   @media (max-width: 1200px) {
+    gap: 15px;
     margin-top: 10px;
     height: 80px;
   }

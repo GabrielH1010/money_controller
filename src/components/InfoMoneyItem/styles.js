@@ -46,6 +46,7 @@ export const Title = styled.p`
   margin-right: 20px;
 
   @media (max-width: 1200px) {
+    margin-right: 0px;
     font-size: 16px;
   }
 `;
@@ -55,10 +56,9 @@ export const Total = styled.span`
   font-weight: bold;
   font-family: 'Roboto', sans-serif;
   color:#8888;
-  margin: -10px 0 5px 0;
+  margin: -15px 0 5px 0;
 
   @media (max-width: 1200px) {
     font-size: 18px;
   }
-
 `;

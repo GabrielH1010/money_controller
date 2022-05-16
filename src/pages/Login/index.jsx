@@ -30,6 +30,7 @@ const Login = () => {
 
     if (res) {
       setError(res);
+      console.log(error);
       return;
     }
     toast.success("Login efetuado com sucesso", {
