@@ -21,7 +21,7 @@ export const Header = styled.div`
 
   h3{
     margin: 3px 0;
-    font-size: 16px;
+    font-size: 14px;
     text-align: center;
     font-family: 'Roboto', sans-serif;
     text-transform: uppercase;
@@ -32,8 +32,8 @@ export const Scroll = styled.div`
   display: flex;
   justify-content: center;
   flex-direction: column;
-  height: 135px;
-  margin:5px 0 ;
+  height: 120px;
+  margin: 5px 0 ;
   overflow: hidden;
   overflow-y: auto;
 

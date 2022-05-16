@@ -8,13 +8,12 @@ export const Container = styled.div`
   display: flex;
   align-items: top;
   justify-content: center;
-
   
   @media (max-width: 1200px) {
-    height: 70vh;
+    height: 100vh;
   }
   @media (max-width: 400px) {
-    height: 85vh;
+    height: 90vh;
   }
 `;
 
@@ -25,31 +24,12 @@ export const Area = styled.div`
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  
-  @media (max-width: 1100px) {
-    width: 95%;    
-  }
-`;
-
-export const Topic = styled.div`
-  display: flex;
-  margin: 10px 0;
-  background-color: ${(props) => props.background || primary};
-  width: 90%;
-  justify-content: space-around;
-  flex-direction: row;
-  align-items: center;
-
-  @media (max-width: 1000px) {
-    width: 100%;
-  }
 `;
 
 export const Div = styled.div`
   display: flex;
-  margin: 5% 0;
   background-color: ${(props) => props.background || primary};
-  width: 95%;
+  width: 80%;
   justify-content: center;
   flex-direction: column;
   align-items: center;

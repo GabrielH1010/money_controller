@@ -3,7 +3,7 @@ import {primary} from 'styles/colorProvider';
 
 export const Container = styled.div`
   max-width: 1200px;
-  margin: 15px auto;
+  margin: 10px auto;
   width: 100%;
   background-color: white;
   border-radius: 5px;

@@ -39,25 +39,25 @@ export const Header = styled.header`
 `;
 
 export const Title = styled.p`
- font-size: 20px;
+ font-size: 18px;
   font-family: 'Roboto', sans-serif;
   text-transform: uppercase;
   font-weight: bold;
   margin-right: 20px;
 
-  @media (max-width: 1100px) {
-    font-size: 18px;
+  @media (max-width: 1200px) {
+    font-size: 16px;
   }
 `;
 
 export const Total = styled.span`
-  font-size: 30px;
+  font-size: 24px;
   font-weight: bold;
   font-family: 'Roboto', sans-serif;
   color:#8888;
   margin: -10px 0 5px 0;
 
-  @media (max-width: 1100px) {
+  @media (max-width: 1200px) {
     font-size: 18px;
   }
 
