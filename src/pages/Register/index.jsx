@@ -17,8 +17,8 @@ import useAuth from "../../hooks/useAuth";
 
 const Login = () => {
   const [email, setEmail] = useState("");
-  const [senha, setSenha] = useState("");
-  const [emailConfirme, setEmailConfirme] = useState("");
+  const [password, setPassword] = useState("");
+  const [passwordConfirm, setPasswordConfirm] = useState("");
   const [error, setError] = useState("");
 
   const { signup } = useAuth();
@@ -26,15 +26,15 @@ const Login = () => {
 
   const handleSignup = (e) => {
     e.preventDefault();
-    if (email !== emailConfirme) {
-      toast.error("O e-mail não são iguais", {
+    if (password !== passwordConfirm) {
+      toast.error("A senha não são iguais", {
         position: toast.POSITION.TOP_RIGHT,
         theme: "colored",
       });
       return;
     }
 
-    const response = signup(email, senha);
+    const response = signup(email, password);
 
     if (response) {
       setError(response);
@@ -67,23 +67,25 @@ const Login = () => {
               onChange={(e) => setEmail(e.target.value)}
             />
             <Input
-              label="Confirm e-mail"
-              placeholder="Type your confirmation e-mail"
-              value={emailConfirme}
-              onChange={(e) => setEmailConfirme(e.target.value)}
-            />
-            <Input
               label="Password"
               type="password"
               password
               placeholder="Type your password"
-              value={senha}
-              onChange={(e) => setSenha(e.target.value)}
+              value={password}
+              onChange={(e) => setPassword(e.target.value)}
+            />
+            <Input
+              label="Confirm password"
+              placeholder="Type your password again"
+              type="password"
+              password
+              value={passwordConfirm}
+              onChange={(e) => setPasswordConfirm(e.target.value)}
             />
           </Div>
           <Button
             onClick={handleSignup}
-            disabled={!email || !emailConfirme || !senha}
+            disabled={!email || !passwordConfirm || !password}
           >
             Create
           </Button>
