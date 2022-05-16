@@ -8,9 +8,9 @@ export const Container = styled.div`
   display: flex;
   align-items: top;
   justify-content: center;
-  
+
   @media (max-width: 1200px) {
-    height: 100vh;
+    height: 95vh;
   }
   @media (max-width: 400px) {
     height: 90vh;
