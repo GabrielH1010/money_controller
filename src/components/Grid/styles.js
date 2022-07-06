@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { primary } from "styles/colorProvider";
+import { midleGray, primary, secondary } from "styles/colorProvider";
 
 export const Table = styled.div`
   max-width: 1200px;
@@ -30,12 +30,25 @@ export const Header = styled.div`
 
 export const Scroll = styled.div`
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
+  align-items: center;
   flex-direction: column;
   height: 120px;
   margin: 5px 0 ;
   overflow: hidden;
   overflow-y: auto;
+
+  ::-webkit-scrollbar {
+  width: 8px;
+}
+  ::-webkit-scrollbar-track {
+  background: ${midleGray};
+}
+::-webkit-scrollbar-thumb {
+  border-radius: 15px;
+  background: ${secondary};
+  border: 1px solid ${primary};
+}
 
   @media (max-width: 1200px) {
     height: 110px;
